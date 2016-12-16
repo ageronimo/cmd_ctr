@@ -3,14 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>Command Center</title>
-    <link rel="stylesheet" type="text/css" href="./css/styles.css">
-    <script language="javascript" type="text/javascript" src="./js/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
   </head>
   <body>
     <div class="container">
-      <div id="box">
+      <div class="stylish" id="box" onmouseover="dontGo()" ondblclick="stopClicking()">
         <p>I AM A BOX</p>
+        <p id="hidden">Can you hear me? Double click to shrink.</p>
       </div>
     </div>
   </body>
+  <script type="text/javascript" src="js/app.js"></script>
 </html> 
